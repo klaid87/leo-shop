@@ -1,0 +1,39 @@
+.top-header {
+  background-color: $brand-color;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    padding: 0 15px;
+
+    &:not(:last-child) {
+      position: relative;
+
+      &::after {
+        content: "|";
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: $main-color;
+      }
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 13px;
+    color: $main-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

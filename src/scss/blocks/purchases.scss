@@ -1,0 +1,19 @@
+.purchases {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    display: inline-block;
+    margin-right: 5px;
+
+    &:last-of-type {
+      margin-right: 10px;
+    }
+  }
+
+  &__text {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #656565;
+  }
+}

@@ -1,0 +1,22 @@
+.navigation {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #656565;
+    transition: all 0.3s;
+
+    &:hover {
+      color: darken(#656565, 15%);
+    }
+  }
+}

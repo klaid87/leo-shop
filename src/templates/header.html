@@ -1,1 +1,79 @@
-<h1>Hello</h1>
+<header class="page-header">
+  <div class="page-header__top top-header">
+    <div class="container">
+      <div class="top-header__content">
+        <div class="top-header__customization">
+          <form class="top-header__form form-header" action="#" method="POST">
+            <p class="form-header__group text">
+              <label class="form-header__label" for="language">Language:</label>
+              <select id="language" class="form-header__select" name="Languages">
+                <option class="form-header__option" value="english">English</option>
+                <option class="form-header__option" value="russion">Russion</option>
+              </select>
+            </p>
+            <p class="form-header__group text">
+              <label class="form-header__label" for="currency">Currensy:</label>
+              <select id="currency" class="form-header__select form-header__select--padding-right" name="currency">
+                <option class="form-header__option" value="usd">USD</option>
+                <option class="form-header__option" value="rub">RUB</option>
+              </select>
+            </p>
+          </form>
+        </div>
+        <div class="top-header__action">
+          <ul class="top-header__list list">
+            <li class="top-header__item">
+              <a class="top-header__link" href="#">Account</a>
+            </li>
+            <li class="top-header__item">
+              <a class="top-header__link" href="#">Wishlist</a>
+            </li>
+            <li class="top-header__item">
+              <a class="top-header__link" href="#">Checkout</a>
+            </li>
+            <li class="top-header__item">
+              <a class="top-header__link" href="#">Log In</a>
+            </li>
+            <li class="top-header__item">
+              <a class="top-header__link" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-header__bottom bottom-header">
+    <div class="container">
+      <div class="bottom-header__content">
+        <h1 class="bottom-header__logo heading">@@title</h1>
+        <nav class="bottom-header__navigation navigation">
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">women</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">men</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">other</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">purchase</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="bottom-header__form" action="#" method="POST">
+          <input class="bottom-header__search field" type="text" name="search" value="Search..">
+        </form>
+        <div class="bottom-header__purchases purchases">
+          <a class="purchases__link ellipse" href="#"><span class="visually-hidden">label</span></a>
+          <a class="purchases__link ellipse" href="#"><span class="visually-hidden">cart</span></a>
+          <span class="purchases__text">Cart  (0)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

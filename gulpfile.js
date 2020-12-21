@@ -84,7 +84,7 @@ gulp.task("images", gulp.series("images:default", "images:webp"));
 gulp.task("watch", function() {
   gulp.watch("src/scss/**/*.scss", gulp.series("style"));
   gulp.watch("src/**/*.*", gulp.series("style"));
-  gulp.watch("src/*.html", gulp.series("html"));
+  gulp.watch("src/**/*.html", gulp.series("html"));
   gulp.watch("src/images/**/*.*", gulp.series("images"));
   gulp.watch("src/fonts/**/*.{woff,woff2}", gulp.series("copy:fonts"));
   gulp.watch("src/js/**/*.js", gulp.series("scripts"));

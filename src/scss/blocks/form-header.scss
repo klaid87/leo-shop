@@ -1,0 +1,26 @@
+.form-header {
+  display: flex;
+
+  &__label {
+    font-size: 13px;
+    color: #bef2ff;
+  }
+
+  &__select {
+    background-color: transparent;
+    border: none;
+    padding-right: 15px;
+    color: $main-color;
+    outline: none;
+    cursor: pointer;
+
+    &--padding-right {
+      padding-right: 30px;
+    }
+  }
+  
+  &__option {
+    font-size: 13px;
+    background-color: $brand-color;
+  }
+}

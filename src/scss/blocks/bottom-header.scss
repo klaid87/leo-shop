@@ -1,0 +1,25 @@
+.bottom-header {
+  padding: 35px 0;
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #656565;
+    margin-right: 60px;
+    letter-spacing: -2px;
+  }
+
+  &__navigation {
+    margin-right: 110px;
+  }
+
+  &__form {
+    margin-right: 15px;
+  }
+}
